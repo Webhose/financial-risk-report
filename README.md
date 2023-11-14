@@ -21,7 +21,7 @@ This Python script automates the generation of weekly financial risk reports. It
 ## Usage
 To run the script, use:
 ```bash
-python script_name.py
+python create_financial_risk_report.py
 ```
 ### Script Workflow
 - Fetches negative sentiment news articles related to economy, business, and finance from Webz.io.
