@@ -49,6 +49,10 @@ def fetch_articles(query, api_key, total):
         data = response.json()
 
         posts = data["posts"]
+
+        if len(posts) == 0:
+            break
+        
         all_posts.extend(posts)
 
         total -= len(posts)
